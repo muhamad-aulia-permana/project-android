@@ -1,0 +1,30 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"  >
+  
+    <item android:id="@+id/maplokasi"
+       
+        android:title="peta"
+        app:showAsAction="always"
+        android:icon="@drawable/map"
+      />
+        
+    <item android:id="@+id/info"
+        
+        android:title="Info"
+        app:showAsAction="always"
+        android:icon="@drawable/home"
+     />
+         <item android:id="@+id/home"
+       
+        android:title="Keluar"
+        app:showAsAction="always"
+        android:icon="@drawable/ext"
+      />
+       
+  
+    
+        
+ 
+
+</menu>

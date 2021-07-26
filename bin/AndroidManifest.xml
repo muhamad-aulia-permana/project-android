@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aulia.industri"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.aulia.industri.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.aulia.industri.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu_Utama"
+            android:label="@string/title_activity_menu__utama"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name=".Gps"
+            android:label="@string/title_activity_gps" >
+        </activity>
+        <activity
+            android:name=".Peta"
+            android:label="@string/title_activity_peta"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".List_Industri"
+            android:label="@string/title_activity_list__industri" >
+        </activity>
+        <activity
+            android:name=".Akomodasi"
+            android:label="@string/title_activity_akomodasi" >
+        </activity>
+        <activity
+            android:name=".Database"
+            android:label="@string/title_activity_database" >
+        </activity>
+        <activity
+            android:name=".Database_Umum"
+            android:label="@string/title_activity_database__umum" >
+        </activity>
+
+         <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBow9xTDxm84mO9XDov7-t62Zul9wYedX8" />
+
+        <activity
+            android:name=".TentangIndustriBogor"
+            android:label="@string/title_activity_tentang_industri_bogor"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".ListIndustri"
+            android:label="@string/title_activity_list_industri"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".Detail"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".Bantuan"
+            android:label="@string/title_activity_bantuan" >
+        </activity>
+        <activity
+            android:name=".Tentang"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+        <activity
+            android:name=".TentangAplikasi"
+            android:label="@string/title_activity_tentang_aplikasi"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" 
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+    </application>
+
+</manifest>

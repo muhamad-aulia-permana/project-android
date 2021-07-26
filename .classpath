@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="D:/Eclipse/universal-image-loader-1.8.4-with-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Software/Eclipse SDK JDK/Java Json eclipse/apache-httpcomponents-httpclient.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Software/Eclipse SDK JDK/Java Json eclipse/apache-httpcomponents-httpcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Software/Eclipse SDK JDK/Java Json eclipse/java-json.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="D:/android-sdk/extras/google/google_play_services"/>
+	<classpathentry kind="lib" path="D:/android-sdk/extras/android/support/v7"/>
+	<classpathentry kind="lib" path="D:/Android Eclipse/AndroidImageSlideShow"/>
+	<classpathentry kind="lib" path="D:/Android Eclipse/materialdialogs-master"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

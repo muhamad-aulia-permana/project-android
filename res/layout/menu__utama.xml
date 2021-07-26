@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuutama"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.aulia.industri.Menu_Utama" >
+    <ImageButton
+        android:id="@+id/Peta"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/petalokasi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Peta"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/Tentang"
+        android:text="Peta Lokasi"
+        android:textColor="@color/holo_blue_dark" />
+
+    <ImageButton
+        android:id="@+id/Tentang"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="@+id/Peta"
+        android:layout_below="@+id/Peta"
+        android:scaleType="fitXY"
+        android:src="@drawable/tentangindustri" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignTop="@+id/Tentang"
+        android:layout_marginTop="22dp"
+        android:text="Tentang Industri Bogor"
+        android:textColor="@color/holo_blue_dark" />
+
+    <ImageButton
+        android:id="@+id/Keluar"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/Tentang"
+        android:layout_toLeftOf="@+id/textView1"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/keluar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/Keluar"
+        android:layout_marginTop="19dp"
+        android:text="Keluar"
+        android:textColor="@color/holo_blue_dark" />
+
+   
+
+</RelativeLayout>

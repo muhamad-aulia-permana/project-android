@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Industri Kota Bogor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu__utama">Menu_Utama</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gps">Gps</string>
+    <string name="title_activity_peta">Peta</string>
+    <string name="title_activity_list__industri">List_Industri</string>
+    <string name="title_activity_akomodasi">Akomodasi</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_database__umum">Database_Umum</string>
+    <string name="title_activity_get_direction_async_task">GetDirectionAsyncTask</string>
+    <string name="product_name">Product Name</string>
+    <string name="txt_image_slider">Image Slideshow</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="time_out">Time Out</string>
+    <string name="error_occured">Error Occurred</string>
+    <string name="title_activity_tentang_industri_bogor">Tentang Industri Bogor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_konfig_list_view">list menu</string>
+    <string name="title_activity_gmapv2_direction">Gmapv2Direction</string>
+    <string name="action_navigate">Navigasi ke Lokasi</string>
+    <string name="action_negative">Cancel</string>
+    <string name="action_about_developer">Tentang Pengembang</string>
+    <string name="action_header_choice"> Pilih Tujuan</string>
+
+    <string-array name="list_goto">
+        <item>Pt Perefetti Van Melle Indonesia</item>
+        <item>Pt Hari Hikmah Indah</item>
+        <item>Pt Kartika Sinar Teknik</item>
+        <item>Pt Toyota Gosei Safety System</item>
+        <item>Pt Putra Bintang Kharisma</item>
+        <item>Pt Keramik</item>
+        <item>Pt Sutra Kabel</item>
+        <item>Pt Asalta Mandiri Agung</item>
+        <item>Pt Astra Ortopart</item>
+        <item>Pt Galenium Pharmasia</item>
+        <item>Pt Manito World Kawasan Berkat</item>
+        <item>Pt Sunshine World</item>
+        <item>Pt Yongjin Javasuka Garment Fac 1</item>
+        <item>Pt Yungnam Indonesia</item>
+        <item>Pt Aqua Mas</item>
+        <item>Pt Hit Electro Mechanics Indonesia</item>
+        <item>Pt Kg Fashion Indonesia</item>
+        <item>Pt Sumber Sukses Sentosa</item>
+        <item>Pt Aqua Club</item>
+        <item>Pt Kopontren Nikmatul Jwhrgas </item>
+    </string-array>
+
+    <string name="action_body_bantuan">
+<![CDATA[
+         Aplikasi Objek Industri kota Bogor ini merupakan aplikasi android yang dibuat untuk membantu pelamar kerja dalam mencari informasi dan rute industri yang akan dituju yang berada di Kota Bogor <br/>
+        <br/>
+         <b> Tempat Industri </b><br/>
+         <b> Menu ini menampilkan tempat industri yang berada di Kota Bogor. </b><br/>
+         <br/>
+         <b> Jalur Menuju Lokasi </b><br/>
+         <b> Menu ini menampilkan list tempat industri serta rute yang akan di kunjungi. </b><br/>
+          <br/>
+         <b> Bantuan </b><br/>
+         <b> Menu ini menampilkan bantuan para pengguna mengenai fungsi dari menu yang terdapat dalam aplikasi ini. </b><br/>
+          <br/>
+         <b> Tentang </b><br/>
+         <b> Menu ini menampilkan profil singkat tentang pembuat aplikasi. </b><br/>
+          <br/>
+         ]]>
+    </string>
+    <string name="action_about_developer_body">
+<![CDATA[
+        Dibuat oleh: <br/>
+        <b>Muhamad Aulia Permana</b><br/>
+        <br/>
+        Layanan Informasi Objek Industri Kota Bogor merupakan aplikasi berbasis android berguna untuk pelamar kerja dalam mencari informasi serta navigasi objek industri yang ada.<br/>
+        <br/>
+      	]]>
+    </string>
+    <string name="action_positive">YES/string> <string name="action_header_bantuan"> Bantuan</string></string>
+    <string name="title_activity_list_industri">List Industri</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="title_activity_bantuan">Bantuan</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
